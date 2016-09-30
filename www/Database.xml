@@ -1,0 +1,40 @@
+<!-- Profile -->
+<Name>Test</Name>
+<Grade></Grade>
+<Classes></Classes>
+
+<!--Grades and Scores-->
+<Class1>
+    <NameRef></NameRef>
+</Class1>
+
+
+<Class2>
+    <NameRef></NameRef>
+</Class2>
+
+
+<Class3>
+    <NameRef></NameRef>
+</Class3>
+
+
+<Class4>
+    <NameRef></NameRef>
+</Class4>
+
+
+<Class5>
+    <NameRef></NameRef>
+</CLass5>
+
+
+<Class6>
+    <NameRef></NameRef>
+</Class6>
+
+
+<Class7>
+    <NameRef></NameRef>
+</Class7>
+

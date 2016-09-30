@@ -1,0 +1,255 @@
+@font-face 
+{
+    font-family: 'chalkdustregular';
+    src: url('fonts/chalkdust-webfont.eot');
+    src: url('fonts/chalkdust-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/chalkdust-webfont.woff2') format('woff2'),
+         url('fonts/chalkdust-webfont.woff') format('woff'),
+         url('fonts/chalkdust-webfont.ttf') format('truetype'),
+         url('fonts/chalkdust-webfont.svg#chalkdustregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face 
+{
+    font-family: 'chalk-extendednormal';
+    src: url('fonts/ufonts.com_chalk-extended-normal-webfont.eot');
+    src: url('fonts/ufonts.com_chalk-extended-normal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ufonts.com_chalk-extended-normal-webfont.woff2') format('woff2'),
+         url('fonts/ufonts.com_chalk-extended-normal-webfont.woff') format('woff'),
+         url('fonts/ufonts.com_chalk-extended-normal-webfont.ttf') format('truetype'),
+         url('fonts/ufonts.com_chalk-extended-normal-webfont.svg#chalk-extendednormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background-color: black;
+}
+
+#topTitle
+{
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-family: "chalkdustregular";
+    margin-bottom: -.1em;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.box
+{
+    width:75%;
+    height:3em;
+    margin: auto; 
+    margin-bottom: .8em;
+    border-radius: 5em;
+    resize: none;
+    background-color: black;
+    border: .25em solid white;
+    border-style: solid;
+    border-width: 13px 13px 13px 13px;
+    -moz-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -webkit-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -o-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    
+}
+
+.boxText
+{
+    text-align: center;
+    color:white;
+    font-family: "chalkdustregular";
+    font-size:1.5em;
+    transform: translate(0% , -30%);
+
+}
+
+.Top_Divider
+{
+    width:100%;
+}
+
+#submit
+{
+    font-family: "chalkdustregular";
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    border-radius: 1em;
+    transition-duration: 0.2s;
+}
+#submit:active
+{
+    font-family: "chalkdustregular";
+    background-color: black;
+    color:white;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 1em;
+}
+#resultTextHeader
+{
+    color: white;
+    font-size: 1em;
+    padding-left: .2em;
+    font-family: "chalkdustregular";
+}
+
+.text1
+{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'chalkdustregular';
+}
+
+text2
+{
+    color: white;
+    text-align: center;
+    font-size: .75em;
+    font-family: 'chalkdustregular';
+}
+
+.table
+{
+    margin: auto;
+    border-style: solid;
+    border-width: 10px 10px 10px 10px;
+    -moz-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -webkit-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -o-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    
+    font-family: 'chalkdustregular';
+    color: white;
+    font-size: 1.5em;
+
+    width: 90%;
+    
+}
+
+.tabletext
+{
+    text-decoration: none;
+    color: white;
+
+}
+
+tr
+{
+    height: 45px;
+}
+
+.NavBut
+{
+    width: 100px;
+    height: 40px;
+
+    border: .25em solid white;
+    border-style: solid;
+    border-width: 13px 13px 13px 13px;
+    -moz-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -webkit-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -o-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+
+    border-radius: 20%;
+    
+    position: relative;
+    margin: auto;
+    float: right;
+
+    
+}
+.NavBut2
+{
+    width: 100px;
+    height: 40px;
+
+    border: .25em solid white;
+    border-style: solid;
+    border-width: 13px 13px 13px 0px;
+    -moz-border-image: url(chalkBorder.png) 26 19 22 16 round repeat;
+    -webkit-border-image: url(chalkBorder.png) 26 19 22 16 round repeat;
+    -o-border-image: url(chalkBorder.png) 26 19 22 16 round repeat;
+    border-image: url(chalkBorder.png) 26 19 22 16 round repeat;
+    
+    border-radius: 20%;
+    
+    position: relative;
+    margin: auto;
+    float: right;
+
+}
+
+.NavButText
+{
+    color: white;
+    font-family: "chalkdustregular";
+    font-size: 1em;
+    text-decoration: none;
+
+    vertical-align: middle;
+
+    text-align: center;
+}
+
+.Home_But
+{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+
+.input
+{
+    background-color: black;
+
+    font-family: 'chalk-extendednormal';
+    color: white;
+
+    border: .25em solid white;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    -moz-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -webkit-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -o-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+
+    font-size: 1em;
+
+    width: 20%;
+
+}
+
+.Save
+{
+    background-color: black;
+
+    font-family: 'chalkdustregular';
+    color: white;
+
+    border: .25em solid white;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    -moz-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -webkit-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    -o-border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+    border-image: url(chalkBorder.png) 26 19 22 26 round repeat;
+
+    font-size: 1em;
+
+    width: 20%;
+
+}
+
